@@ -1,0 +1,22 @@
+{
+  "name": "eberron-calendar",
+  "version": "1.0.0",
+  "description": "A FoundryVTT module implementing the Eberron calendar",
+  "main": "eberron-calendar.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPMeehan/eberron-calendar.git"
+  },
+  "keywords": [
+    "FoundryVTT"
+  ],
+  "author": "Joseph Meehan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JPMeehan/eberron-calendar/issues"
+  },
+  "homepage": "https://github.com/JPMeehan/eberron-calendar#readme"
+}

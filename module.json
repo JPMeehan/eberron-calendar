@@ -1,0 +1,31 @@
+{
+  "id": "eberron-calendar",
+  "title": "Eberron Calendar",
+  "version": "0.8.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Joseph Meehan",
+      "email": "jpmeehan5@gmail.com",
+      "url": "https://joseph-meehan.carrd.co",
+      "discord": "chaosos",
+      "flags": {}
+    }
+  ],
+  "esmodules": ["eberron-calendar.mjs"],
+  "styles": ["eberron-calendar.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/JPMeehan/eberron-calendar",
+  "manifest": "https://github.com/JPMeehan/eberron-calendar/releases/latest/download/module.json",
+  "download": "AUTOMATIC",
+  "readme": "README.md"
+}
