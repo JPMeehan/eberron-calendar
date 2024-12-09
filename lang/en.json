@@ -1,1 +1,6 @@
-{}
+{
+    "Eberron": {
+        "CalendarName": "Galifaran",
+        "CalendarDescription": "The primary calendar used in the continent of Khorvaire"
+    }
+}
