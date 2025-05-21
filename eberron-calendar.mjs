@@ -3,7 +3,8 @@ Hooks.once("init", () => {
         name: "Eberron.CalendarName",
         description: "Eberron.CalendarDescription",
         years: {
-            yearZero: 998
+            yearZero: 998,
+            firstWeekDay: 0
         },
         months: {
             values: [
@@ -82,77 +83,77 @@ Hooks.once("init", () => {
             ]
         },
         days: {
-            weekdays: [
+            values: [
                 {
                     name: "Sul",
                     abbreviation: "Su",
                     ordinal: 1,
-                    isRestDay: true,
                 },
                 {
                     name: "Mol",
                     abbreviation: "M",
                     ordinal: 2,
-                    isRestDay: false,
                 },
                 {
                     name: "Zol",
                     abbreviation: "Zl",
                     ordinal: 3,
-                    isRestDay: false,
                 },
                 {
                     name: "Wir",
                     abbreviation: "W",
                     ordinal: 4,
-                    isRestDay: false,
                 },
                 {
                     name: "Zor",
                     abbreviation: "Zr",
                     ordinal: 5,
-                    isRestDay: false,
                 },
                 {
                     name: "Far",
                     abbreviation: "F",
                     ordinal: 6,
-                    isRestDay: false,
                 },
                 {
                     name: "Sar",
                     abbreviation: "Sa",
                     ordinal: 7,
-                    isRestDay: true,
                 }
             ],
-            daysPerYear: 336
+            daysPerYear: 336,
+            hoursPerDay: 24,
+            minutesPerHour: 60,
+            secondsPerMinute: 60
         },
         seasons: {
             values: [
                 {
-                    name: "Winter",
+                    name: "CALENDAR.GREGORIAN.Winter",
                     abbreviation: "W",
-                    startMonth: 12,
-                    startDay: 1,
+                    monthStart: 12,
+                    monthEnd: 2,
+                    dayStart: 1,
                 },
                 {
-                    name: "Spring",
+                    name: "CALENDAR.GREGORIAN.Spring",
                     abbreviation: "Sp",
-                    startMonth: 3,
-                    startDay: 1,
+                    monthStart: 3,
+                    monthEnd: 5,
+                    dayStart: 1,
                 },
                 {
-                    name: "Summer",
+                    name: "CALENDAR.GREGORIAN.Summer",
                     abbreviation: "Su",
-                    startMonth: 6,
-                    startDay: 1,
+                    monthStart: 6,
+                    monthEnd: 8,
+                    dayStart: 1,
                 },
                 {
-                    name: "Autumn",
+                    name: "CALENDAR.GREGORIAN.Fall",
                     abbreviation: "A",
-                    startMonth: 9,
-                    startDay: 1,
+                    monthStart: 9,
+                    monthEnd: 11,
+                    dayStart: 1,
                 },
             ]
         }
