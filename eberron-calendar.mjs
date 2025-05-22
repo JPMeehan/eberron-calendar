@@ -1,10 +1,10 @@
 Hooks.once("init", () => {
-    CONFIG.calendar = {
+    CONFIG.time.worldCalendarConfig = {
         name: "Eberron.CalendarName",
         description: "Eberron.CalendarDescription",
         years: {
             yearZero: 998,
-            firstWeekDay: 0
+            firstWeekday: 0
         },
         months: {
             values: [
