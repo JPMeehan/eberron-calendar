@@ -1,6 +1,6 @@
 {
   "id": "eberron-calendar",
-  "title": "Eberron Calendar",
+  "title": "Unofficial Eberron Calendar",
   "version": "0.8.0",
   "compatibility": {
     "minimum": "13",
@@ -16,7 +16,6 @@
     }
   ],
   "esmodules": ["eberron-calendar.mjs"],
-  "styles": ["eberron-calendar.css"],
   "languages": [
     {
       "lang": "en",
@@ -25,7 +24,9 @@
     }
   ],
   "url": "https://github.com/JPMeehan/eberron-calendar",
+  "bugs": "https://github.com/JPMeehan/eberron-calendar/issues",
   "manifest": "https://github.com/JPMeehan/eberron-calendar/releases/latest/download/module.json",
   "download": "AUTOMATIC",
-  "readme": "README.md"
+  "readme": "README.md",
+  "license": "LICENSE.md"
 }
