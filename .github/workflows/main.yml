@@ -34,7 +34,7 @@ jobs:
 
       # Create zip file.
       - name: Create ZIP archive
-        run: zip -r ./module.zip module.json eberron-calendar.mjs.mjs lang/
+        run: zip -r ./module.zip module.json eberron-calendar.mjs lang/
 
       # Create a release for this specific version.
       - name: Update Release with Files
